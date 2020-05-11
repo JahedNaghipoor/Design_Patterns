@@ -1,4 +1,4 @@
-package designPatterns;
+package Builder;
 
 public class EmployeeBuilder extends PersonBuilder {
 

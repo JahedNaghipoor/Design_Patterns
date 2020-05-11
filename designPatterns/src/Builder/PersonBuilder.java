@@ -1,4 +1,4 @@
-package designPatterns;
+package Builder;
 
 public class PersonBuilder<SELF extends PersonBuilder<SELF>> {
 
