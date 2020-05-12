@@ -6,9 +6,9 @@ public class Builder {
 
 		EmployeeBuilder eb = new EmployeeBuilder();
 
-		Person jahed = eb.workAt("Developer").withname("Jahed").build();
+		Person build = eb.workAt("Developer").withname("Jahed").build();
 
-		System.out.println(jahed);
+		System.out.println(build);
 	}
 
 }
