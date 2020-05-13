@@ -13,8 +13,8 @@ public class Prototype {
 		jane.address.streetName = "London alley";
 		jane.address.houseNumber = 124;
 		
-		System.out.println(john);
 		System.out.println(jane);
+		System.out.println(john);
 	}
 
 }
