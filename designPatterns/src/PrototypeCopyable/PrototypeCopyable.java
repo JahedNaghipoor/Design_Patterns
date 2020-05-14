@@ -13,6 +13,14 @@ public class PrototypeCopyable {
 		
 		System.out.println(chris);
 		System.out.println(john);
+		
+		
+		// copy using serialization method
+		
+//		Foo foor = new Foo(20, "Foo");		
+//		Foor foo = SerializationUtils.roundtrip(foo);	
+//		foo.whatever = "xyz";
+		
 
 	}
 

@@ -11,6 +11,7 @@ public class Employee {
 		this.address = address;
 	}
 
+	// copy constructor
 	public Employee(Employee other) {
 		name = other.name;
 		address = new Address(other.address);

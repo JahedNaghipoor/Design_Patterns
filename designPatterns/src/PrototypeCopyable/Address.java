@@ -11,6 +11,7 @@ public class Address {
 		this.country = country;
 	}
 	
+	// copy constructor
 	public Address (Address other) {
 		
 	this(other.street, other.city, other.country);
