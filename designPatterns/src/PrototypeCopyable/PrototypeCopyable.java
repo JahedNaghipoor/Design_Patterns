@@ -10,8 +10,9 @@ public class PrototypeCopyable {
 		Employee chris = new Employee(john);
 		chris.name = "Chris";
 		
-		System.out.println(john);
+		
 		System.out.println(chris);
+		System.out.println(john);
 
 	}
 
